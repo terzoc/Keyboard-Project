@@ -12,7 +12,7 @@ Pmod I2S2 requires a 3.5-mm connector for a headphone or speaker
 The Digilent Pmod I2S2 features a Cirrus CS5343 Multi-Bit Audio A/D Converter and a Cirrus CS4344 Stereo D/A Converter, each connected to 3.5mm Audio Jacks. These circuits allow a system board to transmit and receive stereo audio signals via the I2S protocol. The Pmod I2S2 supports 24-bit resolution per channel at input sample rates up to 108 KHz.
 
 # Vivado Steps
-This project was taken from the foundings of Lab 5 in class. As such, the steps to implement the project into Vivado and the Nexys Board are taken from there as it is the same:
+This was taken from the steps in Lab 5 showing the implementation of the project into Vivado and the Nexys Board
 
 ## 1. Create a new RTL project siren in Vivado Quick Start
 Create four new source files of file type VHDL called dac_if, tone, wail, and siren
