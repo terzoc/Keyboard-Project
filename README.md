@@ -56,6 +56,7 @@ This was taken from the steps in Lab 5 showing the implementation of the project
 - Dac audio out
 - 7 segment display
 # Demo
+![Picture of note c5 displaying](https://github.com/terzoc/Keyboard-Project/assets/36427446/75201197-7d7f-41ea-b263-8b1a51901f1e)
 
 
 # Code Modifications 
