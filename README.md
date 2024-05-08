@@ -58,6 +58,7 @@ This was taken from the steps in Lab 5 showing the implementation of the project
 # Demo
 ![Picture of note c5 displaying](https://github.com/terzoc/Keyboard-Project/assets/36427446/75201197-7d7f-41ea-b263-8b1a51901f1e)
 
+https://github.com/terzoc/Keyboard-Project/assets/36427446/ce9f29cc-ec1f-477d-8308-66dbcfc227a2
 
 # Code Modifications 
 ### siren.xdc
