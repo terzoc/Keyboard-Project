@@ -15,6 +15,7 @@ ARCHITECTURE Behavioral OF tone IS
 	SIGNAL count : unsigned (15 DOWNTO 0); -- represents current phase of waveform
 	SIGNAL quad : std_logic_vector (1 DOWNTO 0); -- current quadrant of phase
 	SIGNAL index : signed (15 DOWNTO 0); -- index into current quadrant
+	SIGNAL temp : signed (15 DOWNTO 0);
 BEGIN
 	-- This process adds "pitch" to the current phase every sampling period. Generates
 	-- an unsigned 16-bit sawtooth waveform. Frequency is determined by pitch. For
