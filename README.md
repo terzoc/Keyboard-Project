@@ -15,26 +15,26 @@ The Digilent Pmod I2S2 features a Cirrus CS5343 Multi-Bit Audio A/D Converter an
 This was taken from the steps in Lab 5 showing the implementation of the project into Vivado and the Nexys Board
 
 ## 1. Create a new RTL project siren in Vivado Quick Start
-Create four new source files of file type VHDL called dac_if, tone, wail, and siren
+- Create four new source files of file type VHDL called dac_if, tone, wail, and siren
 
-Create a new constraint file of file type XDC called siren
+- Create a new constraint file of file type XDC called siren
 
-Choose Nexys A7-100T board for the project
+- Choose Nexys A7-100T board for the project
 
-Click 'Finish'
+- Click 'Finish'
 
-Click design sources and copy the VHDL code from dac_if.vhd, tone.vhd, wail.vhd, siren.vhd
+- Click design sources and copy the VHDL code from dac_if.vhd, tone.vhd, wail.vhd, siren.vhd
 
-Click constraints and copy the code from siren.xdc
+- Click constraints and copy the code from siren.xdc
 
 ## 2. Run synthesis
 ## 3. Run implementation and open implemented design
 ## 4. Generate bitstream, open hardware manager, and program device
-Click 'Generate Bitstream'
+- Click 'Generate Bitstream'
 
-Click 'Open Hardware Manager' and click 'Open Target' then 'Auto Connect'
+- Click 'Open Hardware Manager' and click 'Open Target' then 'Auto Connect'
 
-Click 'Program Device' then xc7a100t_0 to download siren.bit to the Nexys A7-100T board
+- Click 'Program Device' then xc7a100t_0 to download siren.bit to the Nexys A7-100T board
 
 # Code Modifications 
 
