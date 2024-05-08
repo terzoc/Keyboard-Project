@@ -49,13 +49,13 @@ This was taken from the steps in Lab 5 showing the implementation of the project
 
 - Click 'Program Device' then xc7a100t_0 to download siren.bit to the Nexys A7-100T board
 
-#Inputs and Outputs
-###Inputs
+# Inputs and Outputs
+### Inputs
 - 13 Slide switches (SW3-SW15)
-###Outputs
+### Outputs
 - Dac audio out
 - 7 segment display
-#Demo
+# Demo
 
 
 # Code Modifications 
