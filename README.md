@@ -8,7 +8,7 @@ Base files used from lab 5: dac_if.vhd, siren.vhd, siren.xdc, tone.vhd, wail.vhd
 # Expected Behavior and Attachments Used
 ## Expected Behavior: 
 
-Our team utilized the FPGA on the Nexys A7-100T board for our project, programming it to produce distinct audio tones depending on which slide switch is in the on position. The switches each corresponds to a note on the 4th octave of a piano following the chromatic scale from C4 to C5. The frequency of the pitch matches that of the musical primary frequency produced when playing that note a piano. The note being played is then displayed on the 7 segment display, to display accidentals the hex b is used as the flat symbol and the note B is denoted by the digit 8.
+Our team utilized the FPGA on the Nexys A7-100T board for our project, programming it to produce distinct audio tones depending on which slide switch is in the on position. The switches each corresponds to a note on the 4th octave of a piano following the chromatic scale from C4 to C5. The frequency of the pitch matches that of the primary frequency produced when playing that note a piano. The note being played is then displayed on the 7 segment display, to display accidentals the hex b is used as the flat symbol and the note B is denoted by the digit 8.
 
 ![291752339-ab7b93cd-75ce-4b3e-b3b1-042b9558b3bc](https://github.com/terzoc/Keyboard-Project/assets/144179870/e4f99b41-a2e8-498a-ad05-4dbf23a3c231)
 
