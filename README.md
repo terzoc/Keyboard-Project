@@ -6,12 +6,18 @@ Master file to access different components of the Nexys A7: https://github.com/b
 Base files used from lab 5: dac_if.vhd, siren.vhd, siren.xdc, tone.vhd, wail.vhd 
 
 # Expected Behavior and Attachments Used
-Expected Behavior: Our team aimed to utilize the FPGA on the Nexys A7-100T board for our project, programming it to produce three distinct wailing audio tones. These tones, mimicking piano notes could be                             activated individually via the BTNU, BTNC, and BTND buttons. 
+Expected Behavior: 
+Our team utilized the FPGA on the Nexys A7-100T board for our project, programming it to produce distinct wailing audio tones. These tones, mimicking piano notes could be activated individually using the switches on the A7 board. 
 
-Attachments Used: We integrated a 24-bit digital-to-analog converter (DAC) known as Pmod I2S2 (Inter-IC Sound) with the top six pins of the Pmod port JA, which produced sounds that were then routed to a speaker                     through a 3.5mm audio jack connected to the green port.
+![291752339-ab7b93cd-75ce-4b3e-b3b1-042b9558b3bc](https://github.com/terzoc/Keyboard-Project/assets/144179870/e4f99b41-a2e8-498a-ad05-4dbf23a3c231)
 
-Pmod I2S2 requires a 3.5-mm connector for a headphone or speaker
-The Digilent Pmod I2S2 features a Cirrus CS5343 Multi-Bit Audio A/D Converter and a Cirrus CS4344 Stereo D/A Converter, each connected to 3.5mm Audio Jacks. These circuits allow a system board to transmit and receive stereo audio signals via the I2S protocol. The Pmod I2S2 supports 24-bit resolution per channel at input sample rates up to 108 KHz.
+Attachments Used: 
+
+We integrated a 24-bit digital-to-analog converter (DAC) known as Pmod I2S2 (Inter-IC Sound) with the top six pins of the Pmod port JA, which produced sounds that were then routed to a speaker through a 3.5mm audio jack connected to the green port.
+![291741386-3c5ee11d-ebac-480b-a4a6-51f2f3f2acb0](https://github.com/terzoc/Keyboard-Project/assets/144179870/f9ea8527-ec25-4acf-b3b1-7bb3da248740)
+Pmod I2S2
+
+The Pmod I2S2 features a Cirrus CS5343 Multi-Bit Audio A/D Converter and a Cirrus CS4344 Stereo D/A Converter, each connected to 3.5mm Audio Jacks. These circuits allow a system board to transmit and receive stereo audio signals via the I2S protocol. The Pmod I2S2 supports 24-bit resolution per channel at input sample rates up to 108 KHz.
 
 # Vivado Steps
 This was taken from the steps in Lab 5 showing the implementation of the project into Vivado and the Nexys Board
