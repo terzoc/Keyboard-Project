@@ -49,14 +49,24 @@ This was taken from the steps in Lab 5 showing the implementation of the project
 
 - Click 'Program Device' then xc7a100t_0 to download siren.bit to the Nexys A7-100T board
 
+#Inputs and Outputs
+###Inputs
+- 13 Slide switches (SW3-SW15)
+###Outputs
+- Dac audio out
+- 7 segment display
+#Demo
+
+
 # Code Modifications 
 ### siren.xdc
-- Had to add definitions for the 13 switches used and the 7 segment display. 
+- Added definitions for the 13 switches used and the 7 segment display. 
 ### leddec16.vhdl
-- Mostly identical to the version in the lab 4 just including the leading zero removal modification
+- Identical to the version in the lab 4 just including the leading zero removal modification
 ### wail.vhdl
-- Removed wspeed and hi_pitch, convered low_pitch to just pitch
-- Removed proesses that modified pitch to make a wail
+- Removed wspeed and hi_pitch
+- convered low_pitch to just pitch
+- Removed process that modified pitch to make a wail
 - Piped pitch straight into tone.vhdl
 ### siren.vhdl
 - added ports for switches and 7 segment display
@@ -64,6 +74,7 @@ This was taken from the steps in Lab 5 showing the implementation of the project
 - removed all mention of hi_tone and wail_speed
 - added signals for 7 segment dig, data, and multiplexer
 - added multiplexer to tim_pr process
-- added leddec16 component 
+- added leddec16 component
+- added set pitch process which reads switches and sets pitch and display accordingly
 
 # Conclude
