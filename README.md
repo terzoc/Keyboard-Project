@@ -77,4 +77,7 @@ This was taken from the steps in Lab 5 showing the implementation of the project
 - added leddec16 component
 - added set pitch process which reads switches and sets pitch and display accordingly
 
-# Conclude
+# Conclusion
+### Difficulties 
+At first we did not know that a multiplexer was required which caused the notes not to display properly. I then tried to implement a multiplexer similar to the one in lab 4. But we were using (2 downto 0) which was causing the display to refresh faster than it could handle. To fix this we used more significant bits (19 downto 17) which means that dig changes less frequently and the display updated at the right refresh rate.
+
