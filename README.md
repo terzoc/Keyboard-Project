@@ -82,4 +82,5 @@ https://github.com/terzoc/Keyboard-Project/assets/36427446/ce9f29cc-ec1f-477d-83
 # Conclusion
 ### Difficulties 
 At first we did not know that a multiplexer was required which caused the notes not to display properly. I then tried to implement a multiplexer similar to the one in lab 4. But we were using (2 downto 0) which was causing the display to refresh faster than it could handle. To fix this we used more significant bits (19 downto 17) which means that dig changes less frequently and the display updated at the right refresh rate.
-
+### Team contributions and timeline
+Both teammates worked on the final project, first by modifying the code and testing in Vivado, then creating the Github repository. The Github sections Expected Behavior and Attachments Used, Vivado Steps, and part of the conclusion was done by Deven and Inputs and Outputs, Code Modifications, and the first part of the conclusion were done by Corvin.
